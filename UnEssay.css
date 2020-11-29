@@ -2,18 +2,37 @@
 Body {
   font-family: "PT Serif","Times New Roman", Times, serif;
   font-size: 1em;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 400;
   text-align: center;
+  background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 #container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
   line-height: 2.5em;
+  background-color:black;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#introduction{
+  text-align: left;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
 }
 
 h1 {
@@ -64,7 +83,7 @@ p {
 @media only screen and (max-width: 600px) {
 
   #container {
-    width: 100%;
+    width: 90%;
     max-width: 400px;
     margin: 0 auto;
   }
@@ -75,7 +94,7 @@ p {
 @media only screen and (min-width: 600px) {
 
   #container {
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -86,7 +105,7 @@ p {
 @media only screen and (min-width: 768px) {
 
   #container {
-    width: 100%;
+    width: 90%;
     max-width: 768px;
     margin: 0 auto;
   }
@@ -97,7 +116,7 @@ p {
 @media only screen and (min-width: 992px) {
 
   #container {
-    width: 100%;
+    width: 90%;
     max-width: 992px;
     margin: 0 auto;
   }
@@ -108,7 +127,7 @@ p {
 @media only screen and (min-width: 1200px) {
 
   #container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
   }
