@@ -43,7 +43,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #B23AEE;
 }
 
 #gorillaz {
@@ -54,8 +54,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #B23AEE;
 }
+
 
 #vocaloid {
   text-align: center;
@@ -65,7 +66,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #B23AEE;
 }
 
 #league {
@@ -76,7 +77,15 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #B23AEE;
+}
+
+#ahri {
+  position: absolute;
+  right: -300px;
+  top: 3900px;
+  overflow: hidden;
+  align: right;
 }
 
 #conclusion {
@@ -87,7 +96,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #B23AEE;
 }
 
 h1 {
@@ -131,7 +140,20 @@ p {
   padding: 15px 0px;
 }
 
+.navbar-custom {
+  background-image: linear-gradient(to right, #BA55D3, #660198, #4B0082);
+  color: #FFFFFF;
+}
 
+.league {
+ text-align: left;
+ width: 850px;
+}
+
+.league2 {
+  text-align: left;
+  padding-left: 600px;
+}
 /* Media queries */
 
 /* Extra small devices (phones, 600px and down) */
