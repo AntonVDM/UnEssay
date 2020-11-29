@@ -35,6 +35,61 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-weight: bold;
 }
 
+#autotune {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#gorillaz {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#vocaloid {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#league {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#conclusion {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  border-bottom: 3px solid #FFFFFF;
+}
+
 h1 {
   text-align: center;
   padding-top: 20px;
@@ -51,7 +106,7 @@ h2 {
 
 footer {
   text-align: center;
-  background-color: #000000;
+  background-image: linear-gradient(#000000,	#4B0082, #BA55D3);
   color: #FFFFFF;
   padding-top: 50px;
   padding-bottom: 50px;
