@@ -1,6 +1,6 @@
 
 Body {
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "PT Serif","Times New Roman", Times, serif;
   font-size: 1em;
   color: #000000;
   font-weight: 400;
@@ -13,6 +13,7 @@ Body {
   margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
+  line-height: 2.5em;
 }
 
 h1 {
@@ -54,4 +55,62 @@ figcaption {
 p {
   text-align: left;
   padding: 15px 0px;
+}
+
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  #container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  #container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  #container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  #container {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  #container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
 }
