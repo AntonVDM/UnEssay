@@ -76,7 +76,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 #logo {
   position: absolute;
   left: -100px;
-  top: 2625px;
+  top: 2750px;
   overflow: hidden;
   align: left;
 }
@@ -106,7 +106,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 #ahri {
   position: absolute;
   right: -300px;
-  top: 4020px;
+  top: 4350px;
   overflow: hidden;
   align: right;
 }
