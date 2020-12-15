@@ -104,11 +104,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 #ahri {
-  position: absolute;
-  right: -300px;
-  top: 4350px;
+  visibility: visible;
+  position: relative;
   overflow: hidden;
-  align: right;
+  display: block;
+  top: 0px;
+  width: 65%;
 }
 
 #conclusion {
@@ -165,6 +166,7 @@ iframe {
 p {
   text-align: left;
   padding: 15px 0px;
+  overflow: scroll;
 }
 
 .navbar-custom {
@@ -174,12 +176,11 @@ p {
 
 .league {
  text-align: left;
- width: 850px;
+ width: 70%;
 }
 
 .league2 {
   text-align: left;
-  padding-left: 600px;
 }
 
 .gorl {
@@ -203,12 +204,20 @@ p {
 
   #ahri {
     visibility: hidden;
-    position: absolute;
-    right: -300px;
-    top: 4350px;
+    position: relative;
+
     overflow: hidden;
     align: right;
   }
+  #logo {
+    visibility: hidden;
+    position: absolute;
+    left: -100px;
+    top: 2750px;
+    overflow: hidden;
+    align: left;
+  }
+
   img {
     max-width: 90%;
   }
@@ -216,6 +225,19 @@ p {
   iframe {
     max-width: 90%;
   }
+  .league {
+   text-align: left;
+   width: 90%;
+  }
+
+  .league2 {
+    text-align: left;
+}
+
+br {
+  visibility: hidden;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -233,11 +255,20 @@ p {
 
   #ahri {
     visibility: hidden;
-    position: absolute;
-    right: -300px;
-    top: 4350px;
+    position: relative;
+
     overflow: hidden;
     align: right;
+
+  }
+
+  #logo {
+    visibility: hidden;
+    position: absolute;
+    left: -100px;
+    top: 2750px;
+    overflow: hidden;
+    align: left;
   }
 
   img {
@@ -247,7 +278,17 @@ p {
   iframe {
     max-width: 90%;
   }
+  .league {
+   text-align: center;
+   width: 90%;
+  }
 
+  .league2 {
+    text-align: left;
+  }
+  br {
+    visibility: hidden;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -265,11 +306,20 @@ p {
 
   #ahri {
     visibility: visible;
-    position: absolute;
-    right: -300px;
-    top: 4350px;
+    position: relative;
+
     overflow: hidden;
     align: right;
+
+  }
+
+  #logo {
+    visibility: visible;
+    position: absolute;
+    left: -100px;
+    top: 2750px;
+    overflow: hidden;
+    align: left;
   }
 
   img {
@@ -280,6 +330,17 @@ p {
     max-width: 90%;
   }
 
+  .league {
+   text-align: left;
+   width: 70%;
+  }
+
+  .league2 {
+    text-align: left;
+  }
+  br {
+    visibility: visible;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -297,11 +358,20 @@ p {
 
   #ahri {
     visibility: visible;
-    position: absolute;
-    right: -300px;
-    top: 4350px;
+    position: relative;
+
     overflow: hidden;
     align: right;
+
+  }
+
+  #logo {
+    visibility: visible;
+    position: absolute;
+    left: -100px;
+    top: 2750px;
+    overflow: hidden;
+    align: left;
   }
 
   img {
@@ -312,6 +382,17 @@ p {
     max-width: 90%;
   }
 
+  .league {
+   text-align: left;
+   width: 70%;
+  }
+
+  .league2 {
+    text-align: left;
+  }
+  br {
+    visibility: visible;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -329,11 +410,19 @@ body {
 
   #ahri {
     visibility: visible;
-    position: absolute;
-    right: -300px;
-    top: 4350px;
+    position: relative;
     overflow: hidden;
     align: right;
+
+  }
+
+  #logo {
+    visibility: visible;
+    position: absolute;
+    left: -100px;
+    top: 2750px;
+    overflow: hidden;
+    align: left;
   }
 
   img {
@@ -342,6 +431,19 @@ body {
 
   iframe {
     max-width: 90%;
+  }
+
+  .league {
+   text-align: left;
+   width: 70%;
+  }
+
+  .league2 {
+    text-align: left;
+  }
+
+  br {
+    visibility: visible;
   }
 
 }
