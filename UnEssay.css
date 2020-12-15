@@ -29,9 +29,6 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .hero-image{
   width: 65%;
   opacity: 80%;
-  border-color: rgba(0,0,0, 0.4);
-  border-width: 10px;
-  border-style: groove;
 }
 
 #container {
@@ -212,7 +209,13 @@ p {
     overflow: hidden;
     align: right;
   }
+  img {
+    max-width: 90%;
+  }
 
+  iframe {
+    max-width: 90%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -235,6 +238,14 @@ p {
     top: 4350px;
     overflow: hidden;
     align: right;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  iframe {
+    max-width: 90%;
   }
 
 }
@@ -261,6 +272,14 @@ p {
     align: right;
   }
 
+  img {
+    max-width: 90%;
+  }
+
+  iframe {
+    max-width: 90%;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -285,6 +304,14 @@ p {
     align: right;
   }
 
+  img {
+    max-width: 90%;
+  }
+
+  iframe {
+    max-width: 90%;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -307,6 +334,14 @@ body {
     top: 4350px;
     overflow: hidden;
     align: right;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  iframe {
+    max-width: 90%;
   }
 
 }
