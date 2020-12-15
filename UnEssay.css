@@ -191,10 +191,23 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  body {
+    overflow-x: hidden;
+  }
+  
   #container {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
+  }
+
+  #ahri {
+    visibility: hidden;
+    position: absolute;
+    right: -300px;
+    top: 4350px;
+    overflow: hidden;
+    align: right;
   }
 
 }
@@ -202,10 +215,23 @@ p {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   #container {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  #ahri {
+    visibility: hidden;
+    position: absolute;
+    right: -300px;
+    top: 4350px;
+    overflow: hidden;
+    align: right;
   }
 
 }
@@ -213,10 +239,23 @@ p {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   #container {
     width: 90%;
     max-width: 768px;
     margin: 0 auto;
+  }
+
+  #ahri {
+    visibility: visible;
+    position: absolute;
+    right: -300px;
+    top: 4350px;
+    overflow: hidden;
+    align: right;
   }
 
 }
@@ -224,22 +263,46 @@ p {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+  body {
+    overflow-x: hidden;
+  }
+
   #container {
     width: 90%;
     max-width: 992px;
     margin: 0 auto;
   }
 
+  #ahri {
+    visibility: visible;
+    position: absolute;
+    right: -300px;
+    top: 4350px;
+    overflow: hidden;
+    align: right;
+  }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+body {
+  overflow-x: hidden;
+}
   #container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  #ahri {
+    visibility: visible;
+    position: absolute;
+    right: -300px;
+    top: 4350px;
+    overflow: hidden;
+    align: right;
   }
 
 }
