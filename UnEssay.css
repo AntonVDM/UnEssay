@@ -76,7 +76,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 #logo {
   position: absolute;
   left: -100px;
-  top: 2800px;
+  top: 2625px;
   overflow: hidden;
   align: left;
 }
@@ -106,7 +106,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 #ahri {
   position: absolute;
   right: -300px;
-  top: 3930px;
+  top: 4200px;
   overflow: hidden;
   align: right;
 }
@@ -156,6 +156,10 @@ figcaption {
   padding-bottom: 20px;
   color: #444;
   font-style: italic;
+}
+
+iframe {
+  padding: 15px;
 }
 
 p {
